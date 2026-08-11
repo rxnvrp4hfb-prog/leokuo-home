@@ -53,6 +53,7 @@ body{
   overflow:hidden;
 }
 .avatar img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.avatar img[hidden]{display:none}
 h1{margin:0;font-size:38px;line-height:1}
 .subtitle{margin:0;color:var(--muted);font-size:16px}
 .links{display:grid;gap:12px;padding-top:22px}
@@ -104,7 +105,7 @@ footer{text-align:center;margin-top:22px;color:#9a958d;font-size:12px}
   <section class="profile">
     <div class="avatar">
       <span>LK</span>
-      <img src="/avatar.jpg" alt="Leo Kuo 大頭貼" onload="this.previousElementSibling.hidden=true" onerror="this.hidden=true">
+      <img src="/avatar.jpg" alt="" onload="this.previousElementSibling.hidden=true" onerror="this.hidden=true">
     </div>
     <h1>Leo Kuo</h1>
     <p class="subtitle">郭宸佑</p>
