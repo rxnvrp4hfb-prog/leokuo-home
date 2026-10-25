@@ -1,5 +1,8 @@
 name = "leokuo-home"
+main = "src/index.js"
 compatibility_date = "2026-08-07"
 
 [assets]
+binding = "ASSETS"
+run_worker_first = true
 directory = "public"
